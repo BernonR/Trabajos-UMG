@@ -2,7 +2,7 @@
 
 	class aarray_multidimensional {
 
-		static void array(string[,] num, double filas) {
+		static void array(int[,] num, double filas) {
 			int i;
 			for (i=1;i<=filas;i++) {
 				Console.WriteLine(num[i-1,0]+" + "+num[i-1,1]+" = "+num[i-1,2]);
